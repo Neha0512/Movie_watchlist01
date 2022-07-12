@@ -1,68 +1,85 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Movie Mania
 
-## Available Scripts
+Movie mania is a movie watchlist application where you can create your watched/ watch list.
 
-In the project directory, you can run:
 
-### `yarn start`
+## Features
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- Authentication sign up/ login
+- Recent movie updates
+- Add/ delete operatiions
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Technologies:
 
-### `yarn test`
+**Frontend:** React, JavaScript, HTML, CSS
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**Server:** Local Storage
 
-### `yarn build`
+## Live Application URL
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Prerequisites / Installation
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+#### Install Node JS
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Refer to https://nodejs.org/en/ to install nodejs
 
-### `yarn eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+#### Install create-react-app
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Install create-react-app npm package globally. This will help to easily run the project and also build the source files easily. Use the following command to install create-react-app
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```bash
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+npm install -g create-react-app
 
-## Learn More
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Run Locally
 
-### Code Splitting
+Clone the project
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+```bash
 
-### Analyzing the Bundle Size
+  git clone https://github.com/Neha0512/movie_watchlist
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+  ```
 
-### Making a Progressive Web App
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+Go to the client side directory and server side
 
-### Advanced Configuration
+```bash
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+  cd client
 
-### Deployment
+  ```
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+  ```bash
 
-### `yarn build` fails to minify
+  cd server
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+  ```
+
+
+Install dependencies
+
+
+```bash
+
+  npm install
+
+  ```
+
+  
+
+Start the server
+
+```bash
+
+  npm run start
+
+  ```
+
+## Support
+
+For support, email 78rakes@gmail.com.
