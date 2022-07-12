@@ -16,6 +16,7 @@ Movie mania is a movie watchlist application where you can create your watched/ 
 **Server:** Local Storage
 
 ## Live Application URL
+https://remarkable-medovik-ec40bb.netlify.app/ [Since I have used the local storage for the application, it might happen it may not work in the live link. Kindly refer to the screen recording folder in the files above.]
 
 ## Prerequisites / Installation
 
